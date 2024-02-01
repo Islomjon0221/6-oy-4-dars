@@ -1,0 +1,29 @@
+.header {
+    padding: 27px 150px;
+    background:#5361E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header nav a {
+    margin-right: 48px;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.header nav a:hover {
+    color: #ffffffc4;
+}
+
+
+.header nav a:last-child {
+    margin-right: 0px;
+}

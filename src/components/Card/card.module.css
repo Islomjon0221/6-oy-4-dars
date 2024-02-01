@@ -1,0 +1,203 @@
+.cards {
+    padding: 32px 38px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 778px;
+    margin-top: 60px;
+    border-radius: 24px;
+    background: #FFF;
+    margin-bottom: 146px;
+}
+
+.h1 {
+    color: #2A2941;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 41.6px */
+    margin-bottom: 16px;
+}
+
+.p {
+    color:#B3B3B3;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+
+.img h4 {
+    color: #5361E4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.img h4:hover {
+    color: #5361e4b6;
+}
+
+.input label {
+    color:  #2A2941;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    display: block;
+
+}
+
+.input input {
+    border-radius: 16px;
+    border: 1px solid #E3E3E3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding: 18px;
+    width: 100%;
+    color:  #2A2941;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input input::placeholder {
+    color:#6E6D77;
+    font-family: Poppins;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input label span{
+    color:  #FF2424;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.input form {
+    margin-top: 20px;
+}
+
+.input textarea {
+    border-radius: 16px;
+    border: 1px solid #E3E3E3;
+    width: 100%;
+    resize: none;
+    font-family: Poppins;
+}
+
+.input textarea::placeholder {
+    color:#6e6d7790;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon {
+    display: flex;
+    gap: 8px;
+}
+
+.icon a {
+    border-radius: 12px;
+    border: 1px solid #E3E3E3;
+    padding: 18px 23px;
+    transition: all 0.3s;
+}
+
+.icon a:hover {
+    background: #e3e3e349;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row select , .row option {
+    border-radius: 16px;
+    border: 1px solid #E3E3E3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    padding: 18px;
+    width: 341px;
+    color:  #2A2941;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Poppins;
+}
+
+.btnrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnrow button:first-child {
+    color: #6E6D77;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: 3px solid #F8F8F8;
+    padding: 15px 30px;
+    border-radius: 16px;
+    background: #F8F8F8;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.btnrow button:first-child:hover {
+    background: #6E6D77;
+    color: #F8F8F8;
+}
+
+.btnrow button:last-child {
+    border-radius: 16px;
+    border: 3px solid #5361E4;
+    background: #5361E4;
+    color:#FFF;
+    font-family: "Poppins";
+    padding: 15px 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.btnrow button:last-child:hover {
+    background: #FFF;
+    color: #5361E4;
+}
