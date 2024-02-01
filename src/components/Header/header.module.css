@@ -27,3 +27,34 @@
 .header nav a:last-child {
     margin-right: 0px;
 }
+
+.clas select {
+    background: #5361E4;
+    border: none;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 38px;
+}
+
+.clas button {
+    color:#5361E4;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 12px;
+    border: 3px solid #FFF;
+    background: #FFF;
+    padding: 10px 24px;
+    transition: all 0.3s;
+}
+
+.clas button:hover {
+    background: #5361E4;
+    color: #FFF;
+}
